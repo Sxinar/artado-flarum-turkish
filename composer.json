@@ -1,26 +1,26 @@
 {
-    "name": "semih/flarum-lang-turkish",
+    "name": "sxinar/flarum-lang-turkish",
     "description": "Turkish language pack for Flarum 2.0",
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
-        "flarum/core": "^2.0"
+        "flarum/core": "^2.0.0-beta.5"
     },
     "authors": [
         {
-            "name": "Semih",
-            "email": "semih@example.com"
+            "name": "sxinar",
+            "role": "Developer"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Semih\\FlarumLangTurkish\\": "src/"
-        }
-    },
     "extra": {
         "flarum-extension": {
-            "title": "Turkish",
-            "category": "language"
+            "title": "Turkish (sxinar)",
+            "category": "language",
+            "icon": {
+                "name": "fas fa-language",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
         },
         "flarum-locale": {
             "code": "tr",

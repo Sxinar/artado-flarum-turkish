@@ -1,0 +1,36 @@
+tr:
+  flarum-flags:
+    admin:
+      permissions:
+        flag_posts_label: 'Gönderileri raporla'
+        view_flags_label: 'Raporlanan gönderileri görüntüle'
+      settings:
+        flag_own_posts_label: 'Kullanıcıların kendi gönderilerini raporlamasına izin ver'
+        guidelines_url_label: 'Topluluk Kuralları URL'
+        title: 'Raporlama Ayarları'
+    forum:
+      flag_post:
+        confirmation_message: 'Bu gönderiyi raporladığınız için teşekkür ederiz.'
+        dismiss_button: 'Fikir Değiştirdim'
+        reason_details_placeholder: 'Ek detaylar (isteğe bağlı)'
+        reason_inappropriate_label: 'Uygunsuz'
+        reason_inappropriate_text: 'Bu gönderi saldırgan, taciz edici veya nefret söylemi içeriyor.'
+        reason_missing_title_label: 'Başlık eksik'
+        reason_off_topic_label: 'Konu dışı'
+        reason_off_topic_text: 'Bu gönderi mevcut tartışmayla ilgili değil.'
+        reason_other_label: 'Diğer (lütfen belirtin)'
+        reason_spam_label: 'Spam'
+        reason_spam_text: 'Bu bir reklam.'
+        submit_button: 'Raporla'
+        title: 'Bu gönderiyi raporla'
+      flagged_posts:
+        empty_text: 'Raporlanan gönderi yok.'
+        item_text: '{username} <em>{discussion}</em> içinde'
+        title: 'Raporlanan Gönderiler'
+        tooltip: 'Raporlanan Gönderiler'
+      post:
+        dismiss_flag_button: 'Raporu Yoksay'
+        flagged_by_text: '{username} tarafından raporlandı'
+        flagged_by_with_reason_text: '{username} {reason} nedeniyle raporladı'
+      post_controls:
+        flag_button: 'Raporla'

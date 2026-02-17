@@ -1,0 +1,17 @@
+tr:
+  flarum-statistics:
+    admin:
+      statistics:
+        active_users_text: '{count} aktif kullanıcı'
+        discussions_heading: 'Tartışmalar'
+        last_12_months_label: 'Son 12 ay'
+        last_28_days_label: 'Son 28 gün'
+        last_7_days_label: 'Son 7 gün'
+        mini_heading: 'İstatistikler'
+        posts_heading: 'Gönderiler'
+        today_label: 'Bugün'
+        total_discussions_label: 'Tartışmalar'
+        total_posts_label: 'Gönderiler'
+        total_users_label: 'Kullanıcılar'
+        users_heading: 'Kullanıcılar'
+        view_full_report: 'Tam raporu görüntüle'

@@ -1,0 +1,14 @@
+tr:
+  flarum-sticky:
+    admin:
+      permissions:
+        sticky_discussions_label: 'Tartışmaları sabitle'
+    forum:
+      badge:
+        sticky_tooltip: 'Sabitlenmiş'
+      discussion_controls:
+        sticky_button: 'Sabitle'
+        unsticky_button: 'Sabitlemeyi Kaldır'
+      post_stream:
+        discussion_stickied_text: '{username} tartışmayı sabitledi.'
+        discussion_unstickied_text: '{username} tartışmanın sabitlemesini kaldırdı.'

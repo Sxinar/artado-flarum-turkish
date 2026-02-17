@@ -1,0 +1,24 @@
+tr:
+  flarum-suspend:
+    admin:
+      permissions:
+        suspend_users_label: 'Kullanıcıları askıya al'
+    forum:
+      badge:
+        suspended_tooltip: 'Askıya Alındı'
+      notifications:
+        user_suspended_text: '{username} sizi {timeReadable} süreyle askıya aldı'
+        user_unsuspended_text: '{username} askıya almanızı kaldırdı'
+      suspend_user:
+        display_message: 'Kullanıcıya Gösterilecek Mesaj'
+        indefinitely_label: 'Süresiz Askıya Al'
+        limited_time_days_text: 'Gün'
+        limited_time_label: 'Süreli Askıya Al...'
+        reason: 'Askıya Alma Nedeni'
+        status_heading: 'Askıya Alma Durumu'
+        submit_button: 'Değişiklikleri Kaydet'
+        title: '{username} adlı kullanıcıyı askıya al'
+      user_badge:
+        suspended_tooltip: 'Askıya Alındı'
+      user_controls:
+        suspend_button: 'Askıya Al'

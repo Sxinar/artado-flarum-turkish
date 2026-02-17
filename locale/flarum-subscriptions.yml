@@ -1,0 +1,30 @@
+tr:
+  flarum-subscriptions:
+    forum:
+      badge:
+        following_tooltip: 'Takip Ediliyor'
+        ignoring_tooltip: 'Görmezden Geliniyor'
+      discussion_controls:
+        follow_button: 'Takip Et'
+        unfollow_button: 'Takibi Bırak'
+        unignore_button: 'Görmezden Gelmeyi Bırak'
+      following:
+        meta_title_text: 'Takip Edilenler'
+      index:
+        following_link: 'Takip Edilenler'
+      notifications:
+        new_post_text: '{username} gönderi paylaştı'
+      settings:
+        follow_after_reply_label: 'Yanıtladığım tartışmaları otomatik takip et'
+        notify_new_post_label: 'Takip ettiğim bir tartışmaya yeni gönderi eklendiğinde'
+      sub_controls:
+        follow_button: 'Takip Et'
+        following_button: 'Takip Ediliyor'
+        following_text: 'Bu tartışmaya yapılan tüm gönderilerden haberdar olun.'
+        ignore_button: 'Görmezden Gel'
+        ignoring_button: 'Görmezden Geliniyor'
+        ignoring_text: 'Bu tartışmadan asla bildirim almayın ve listelerinizden gizleyin.'
+        not_following_button: 'Takip Edilmiyor'
+        not_following_text: 'Yalnızca @bahsedildiğinizde bildirim alın.'
+        notify_alert_tooltip: 'Yeni bir gönderi olduğunda forum bildirimi al'
+        notify_email_tooltip: 'Yeni bir gönderi olduğunda e-posta al'

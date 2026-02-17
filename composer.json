@@ -1,0 +1,30 @@
+{
+    "name": "semih/flarum-lang-turkish",
+    "description": "Turkish language pack for Flarum 2.0",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Semih",
+            "email": "semih@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Semih\\FlarumLangTurkish\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Turkish",
+            "category": "language"
+        },
+        "flarum-locale": {
+            "code": "tr",
+            "title": "Türkçe"
+        }
+    }
+}

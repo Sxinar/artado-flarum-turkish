@@ -1,0 +1,62 @@
+tr:
+  flarum-tags:
+    admin:
+      basics:
+        tags_label: 'Etiketler'
+      edit_tag:
+        color_label: 'Renk'
+        delete_tag_button: 'Etiketi Sil'
+        description_label: 'Açıklama'
+        hide_label: 'Ana Sayfadan Gizle'
+        icon_label: 'İkon (FontAwesome sınıfı)'
+        icon_text: 'Örneğin: <code>fas fa-bolt</code>'
+        name_label: 'İsim'
+        name_placeholder: 'Etiket Adı'
+        slug_label: 'Kısa Ad (Slug)'
+        submit_button: 'Etiketi Kaydet'
+        title: 'Etiket Oluştur/Düzenle'
+      nav:
+        tags_button: 'Etiketler'
+        tags_text: 'Etiketleri yönetin.'
+      permissions:
+        allow_edit_tags_label: 'Etiket düzenlemeye izin ver'
+        bypass_tag_counts_label: 'Etiket sınırlarını aş'
+        restrict_by_tag_heading: 'Etikete Göre Kısıtla'
+        tag_discussions_label: 'Tartışmaları etiketle'
+      settings:
+        button_text: 'Etiket Seç'
+      tags:
+        about_tags_text: 'Etiketler tartışmaları kategorize etmek için kullanılır.'
+        create_tag_button: 'Etiket Oluştur'
+        primary_heading: 'Birincil Etiketler'
+        primary_text: 'Ana kategoriler.'
+        secondary_heading: 'İkincil Etiketler'
+        secondary_text: 'Alt kategoriler veya özellikler.'
+        settings_heading: 'Ayarlar'
+    forum:
+      all_tags:
+        meta_description_text: 'Tüm Etiketler'
+        meta_title_text: 'Etiketler'
+      choose_tags:
+        choose_primary_placeholder: 'Birincil etiket seçin'
+        choose_secondary_placeholder: 'İkincil etiket seçin'
+        edit_title: '{title} Etiketleri Düzenle'
+        submit_button: 'Tamam'
+        title: 'Tartışmanız için etiket seçin'
+      composer_discussion:
+        choose_tags_link: 'Etiket Seç'
+      discussion_controls:
+        edit_tags_button: 'Etiketleri Düzenle'
+      header:
+        back_to_tags_tooltip: 'Etiket Listesine Dön'
+      index:
+        more_link: 'Daha Fazla...'
+        tags_link: 'Etiketler'
+        untagged_link: 'Etiketsiz'
+      post_stream:
+        added_and_removed_tags_text: '{username} {tagsAdded} etiketlerini ekledi ve {tagsRemoved} etiketlerini kaldırdı.'
+        added_tags_text: '{username} {tagsAdded} etiketlerini ekledi.'
+        removed_tags_text: '{username} {tagsRemoved} etiketlerini kaldırdı.'
+        tags_text: '{tags} etiketi'
+      tag:
+        meta_description_text: '{tag} etiketi ile ilgili tartışmalar'

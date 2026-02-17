@@ -1,0 +1,27 @@
+tr:
+  flarum-mentions:
+    admin:
+      settings:
+        allow_username_format_label: 'Kullanıcı adı formatına izin ver (@kullaniciadi)'
+        help_text: 'Bu eklenti, kullanıcıların birbirlerinden ve tartışmalardan bahsetmelerini sağlar.'
+        title: 'Bahsetme Ayarları'
+    forum:
+      composer:
+        mention_tooltip: 'Bir kullanıcı veya gönderiden bahset'
+        reply_to_post_text: '{username} kullanıcısına yanıt ver...'
+      notifications:
+        others_text: '=> core.ref.some_others'
+        post_mentioned_text: '{username} bir gönderide size yanıt verdi'
+        user_mentioned_text: '{username} sizden bahsetti'
+      post:
+        mentioned_by_self_text: '{users} buna yanıt verdiniz.'
+        mentioned_by_text: '{users} buna yanıt verdi.'
+        others_text: '=> core.ref.some_others'
+        quote_link: 'Alıntı'
+        reply_link: 'Yanıtla'
+        you_text: '=> core.ref.you'
+      settings:
+        notify_post_mentioned_label: 'Biri gönderime yanıt verdiğinde'
+        notify_user_mentioned_label: 'Biri benden bahsettiğinde'
+      user:
+        mentions_link: 'Bahsetmeler'

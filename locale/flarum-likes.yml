@@ -1,0 +1,20 @@
+tr:
+  flarum-likes:
+    admin:
+      permissions:
+        like_posts_label: 'Gönderileri beğen'
+      settings:
+        like_own_posts_label: 'Kullanıcıların kendi gönderilerini beğenmesine izin ver'
+    forum:
+      notifications:
+        others_text: '=> core.ref.some_others'
+        post_liked_text: '{username} gönderinizi beğendi'
+      post:
+        like_link: 'Beğen'
+        liked_by_self_text: '{users} bunu beğendiniz.'
+        liked_by_text: '{users} bunu beğendi.'
+        others_link: '=> core.ref.some_others'
+        unlike_link: 'Beğenmekten Vazgeç'
+        you_text: '=> core.ref.you'
+      post_likes:
+        title: 'Bunu Beğenenler'

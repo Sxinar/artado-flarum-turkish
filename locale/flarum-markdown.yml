@@ -1,0 +1,16 @@
+tr:
+  flarum-markdown:
+    admin:
+      settings:
+        help_text: 'Flarum dahili olarak bazı Markdown özelliklerini destekler. Bu eklenti daha fazla ve zengin biçimlendirme seçenekleri ekler.'
+        title: 'Markdown Ayarları'
+    composer:
+      bold_tooltip: 'Kalın Yazı'
+      code_tooltip: 'Kod Bloğu'
+      header_tooltip: 'Başlık Ekle'
+      image_tooltip: 'Resim Ekle'
+      italic_tooltip: 'İtalik Yazı'
+      link_tooltip: 'Bağlantı Ekle'
+      ordered_list_tooltip: 'Numaralı Liste'
+      quote_tooltip: 'Alıntı Yap'
+      unordered_list_tooltip: 'Madde İşaretli Liste'
